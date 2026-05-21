@@ -69,5 +69,8 @@ Age group
 
 3. In 14 and 90 day span, Most customers purchase clothing and accessories categories
 
+## Charts
+check out visualizations: https://github.com/hiten15garg/data_analyst/tree/main/Consumer%20Shopping%20Behaviour%20Analysis%20Project/Charts
+
 # Conclusion
 This project demonstrates how data analysis and visualization can extract meaningful patterns from sales data. These insights can be used by businesses to target the right customer segments and improve their sales strategies.
