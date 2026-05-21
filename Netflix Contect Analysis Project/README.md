@@ -6,7 +6,7 @@ This project performs an Exploratory Data Analysis (EDA) on the Netflix Movies a
 
 The project uses Python libraries for data cleaning, visualization, and analysis to uncover useful insights about Netflix’s global streaming catalog.
 
-Dataset Source: [Netflix Movies and TV Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?utm_source=chatgpt.com) ([Kaggle][1])
+Dataset Source: [Netflix Movies and TV Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?utm_source=chatgpt.com)
 
 ---
 
@@ -60,7 +60,7 @@ The dataset contains information about Netflix titles including:
 | listed_in    | Genre/category           |
 | description  | Short description        |
 
-The dataset includes over 8,000 Netflix titles. ([Kaggle][1])
+The dataset includes over 8,000 Netflix titles.
 
 ---
 
@@ -81,7 +81,25 @@ Used for plotting graphs and charts.
 ## Seaborn
 
 Used for advanced statistical visualizations.
+
+## Wordcloud
+
+used for making word cloud from descriptions of movies and tv shows
+
+## ntlk
+
+used for sentiment analysing of descriptions.
 ---
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from wordcloud import WordCloud
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+```
 
 # Data Cleaning Steps
 
@@ -91,7 +109,7 @@ Used for advanced statistical visualizations.
 * Separated duration values
 * Standardized categorical data
 * Cleaned country and genre fields
-
+* cleaned Actor and directors fields
 ---
 
 # Exploratory Data Analysis
